@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui_background_with_dark_block"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <include
+        android:id="@+id/include5"
+        layout="@layout/activity_c_toolbar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="8dp"
+        android:src="@drawable/selfie_opatile"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include5"
+        app:layout_constraintVertical_bias="0.115"
+        tools:targetApi="o" />
+
+    <LinearLayout
+        android:id="@+id/dev_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/dev_layout_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_pic">
+
+        <ImageButton
+            android:id="@+id/dev_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:padding="10dp"
+            android:src="@drawable/user_shape_24px" />
+
+        <TextView
+            android:id="@+id/dev_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:text="@string/dev_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dev_layout_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/dev_layout_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dev_layout_name">
+
+        <ImageButton
+            android:id="@+id/dev_contact_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/dev_user"
+            android:padding="10dp"
+            android:src="@drawable/mobile_phone_24px" />
+
+        <TextView
+            android:id="@+id/dev_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:text="@string/dev_contact" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dev_layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/dev_layout_twitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dev_layout_contact">
+
+        <ImageButton
+            android:id="@+id/dev_email_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/dev_user"
+            android:padding="10dp"
+            android:src="@drawable/envelope_24px" />
+
+        <TextView
+            android:id="@+id/dev_emil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:text="@string/dev_email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dev_layout_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/dev_layout_instagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dev_layout_email">
+
+        <ImageButton
+            android:id="@+id/dev_twitter_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/dev_user"
+            android:padding="10dp"
+            android:src="@drawable/ic_library_books_black_24dp" />
+
+        <TextView
+            android:id="@+id/dev_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:text="@string/dev_track" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dev_layout_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dev_layout_twitter">
+
+        <ImageButton
+            android:id="@+id/dev_instagram_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/dev_user"
+            android:padding="10dp"
+            android:src="@drawable/ic_flag_black_24dp" />
+
+        <TextView
+            android:id="@+id/dev_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:text="@string/dev_country" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

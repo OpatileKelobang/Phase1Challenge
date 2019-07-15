@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Phase 1 Challenge</string>
+    <string name="logo_main">Main Logo</string>
+    <string name="slide_1_desc">Please take the time to submit a comment on your experience. This will help me create better apps in future!</string>
+
+    <!-- preferences -->
+    <string name="my_preferences">"co.za.bogote.MyPref"</string>
+    <string name="my_preferences_key">"co.za.bogote.MyPrefKey"</string>
+    <string name="img_content_description">Idea Crown</string>
+    <string name="keep_calm">KEEP CALM</string>
+
+    <!-- Slide 2 Strings -->
+    <string name="visitors_name">Visitors Name:</string>
+    <string name="username">Enter Your Name</string>
+    <string name="button_skip">SKIP</string>
+    <string name="button_next">NEXT</string>
+    <string name="button_start">START</string>
+
+    <!-- Intent Buttons -->
+    <string name="button_1">ABOUT ALC</string>
+    <string name="button_2">MY PROFILE</string>
+
+    <!-- Activity Titles -->
+    <string name="activity1">ALC 4 Phase 1</string>
+    <string name="activity2">About ALC</string>
+    <string name="activity3">My Profile</string>
+
+    <!-- Dev Profile strings -->
+    <string name="dev_profile_title">MY DEV DETAILS</string>
+    <string name="back_btn">MAIN MENU</string>
+    <string name="my_details">MY DETAILS</string>
+    <string name="dev_name">Opatile Kelobang</string>
+    <string name="dev_contact">082 200 0808</string>
+    <string name="dev_email">opatile@live.com</string>
+    <string name="dev_track">Andoird Track</string>
+    <string name="dev_country">South Africa</string>
+    <string name="dev_user">User Icon</string>
+
+</resources>

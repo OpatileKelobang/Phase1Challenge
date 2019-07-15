@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "208214262026",
+    "firebase_url": "https://phase1challenge.firebaseio.com",
+    "project_id": "phase1challenge",
+    "storage_bucket": "phase1challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208214262026:android:2224a8bbbe2011a8",
+        "android_client_info": {
+          "package_name": "co.za.bogote.phase1challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208214262026-veo8861g8oi5p8nrgchr9r4fq7evhp85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.za.bogote.phase1challenge",
+            "certificate_hash": "dcf281ae61b7e0d7f826def94081a77b42bc41eb"
+          }
+        },
+        {
+          "client_id": "208214262026-lee108f4fu3gm6i43s8ug33boklnjndp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT-OlEJp1jV3o_WV7FzWrAeeraukyjOCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208214262026-lee108f4fu3gm6i43s8ug33boklnjndp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
